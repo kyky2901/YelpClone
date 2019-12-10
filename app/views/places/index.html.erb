@@ -1,1 +1,9 @@
-<h1>The root page!</h1>
+<% @places.each do |place| %>
+  <div>
+    <h1><%= place.name %></h1><br />
+    <i><%= place.description %></i><br />
+    <p><%= place.address %></p><br />
+  </div>
+
+  <hr />
+<% end %>

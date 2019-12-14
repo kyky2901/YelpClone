@@ -1,0 +1,2 @@
+class AlterPlacesAddLatAndLng < ApplicationRecord
+end
